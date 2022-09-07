@@ -9,8 +9,32 @@ public class Lab2Warmup1 {
         int int3 = Integer.parseInt(input.next());
         if (int1 > int2){
             if (int2 > int3){
-                System.out.println(int1 + int2 + int3);
+                System.out.println(int1 + "\n" + int2 + "\n" + int3);
             }
+            }
+        if (int1 > int3){
+            if (int3 > int2){
+                System.out.println(int1 + "\n" + int3 + "\n" + int2);
+            }
+        }
+        if (int2 > int1){
+            if (int1 > int3){
+                System.out.println(int2 + "\n" + int1 + "\n" + int3);
+            }
+        }
+        if (int2 > int3){
+            if (int3 > int1){
+                System.out.println(int2 + "\n" + int3 + "\n" + int1);
+            }
+        }
+        if (int3 > int1){
+            if (int1 > int2){
+                System.out.println(int3 + "\n" + int1 + "\n" + int2);
+            }
+        }
+        if (int3 > int2){
+            if (int2 > int1){
+                System.out.println(int3 + "\n" + int2 + "\n" + int1);
             }
         }
 

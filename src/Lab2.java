@@ -1,3 +1,5 @@
+//this is the full one with all three problems
+
 import java.util.Scanner;
 
 public class Lab2 {

@@ -7,6 +7,12 @@ public class Lab2Warmup1 {
         int int1 = Integer.parseInt(input.next());
         int int2 = Integer.parseInt(input.next());
         int int3 = Integer.parseInt(input.next());
+        if (int1 > int2){
+            if (int2 > int3){
+                System.out.println(int1 + int2 + int3);
+            }
+            }
+        }
 
 
     }

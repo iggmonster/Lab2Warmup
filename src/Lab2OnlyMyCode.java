@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Lab2 {
-
+public class Lab2OnlyMyCode {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter string pls");
